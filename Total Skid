@@ -1,4 +1,4 @@
-game.Players:Chat("-gh 12994295329,  12344545199, 12344591101, 11159410305, 11263254795, 12483700909")
+game.Players:Chat("-gh 12994295329, 5063578607, 12344545199, 12344591101, 11159410305, 11263254795, 12483700909")
 --[[ 
                  
                                                   // [FE] MYXS REANIM \\
@@ -855,6 +855,12 @@ att2.Parent = cplayer["Left Leg"]
 att2.Position = Vector3.new(0, -0, 0) 
 att2.Rotation = Vector3.new(90, 90, 0) 
 
+local hat2 = gp(cplayer, "Sniper", "Accessory")
+local handle2 = gp(hat2, "Handle", "BasePart")
+local att2 = gp(handle2, "att1_Handle", "Attachment")
+att2.Parent = cplayer["Right Arm"]
+att2.Position = Vector3.new(0, -2.5, -0.5) 
+att2.Rotation = Vector3.new(-90, 90, 0) 
 wait(5)
 
 FELOADLIBRARY = {}
